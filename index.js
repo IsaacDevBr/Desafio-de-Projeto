@@ -1,5 +1,5 @@
 const nomeDeUsuario = "Deuso Programdor";
-let xp = 0;
+let xp = 10000;
 let nivel;
 
 
@@ -21,5 +21,5 @@ if (xp >= 0 && xp <= 1000) {
     nivel = "Radiante"
 }
 
-const mensagemFinal = `O herói de nome ${nomeDeUsuario} está no nível de ${nivel}`
+const mensagemFinal = `O herói de nome ${nomeDeUsuario} está no nível de ${nivel}.`
 console.log(mensagemFinal);
